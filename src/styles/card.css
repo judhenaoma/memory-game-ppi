@@ -1,0 +1,25 @@
+img.grid__card {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+}
+
+.grid__card__front{
+    transform: rotateY(180deg);
+
+}
+
+.grid__card__back{
+    transform: rotateY(0deg);
+}
+
+.flip .grid__card_front{
+    transform: rotateY(0deg);
+}
+
+.flip .grid__card_back{
+    transform: rotateY(180deg);
+}
